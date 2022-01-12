@@ -1,0 +1,109 @@
+*{margin: 0px;}
+
+.cabeza{
+    background-image:url(../images/design1_image1.jpg);
+    background-position: 50% 81%;
+    height: 14rem;
+    
+}
+
+.nombre-pagina{
+font-size: 44px;
+padding:.5rem .5rem 1.5rem 1.5rem;
+
+text-align:left;
+background-color: rgba(46, 219, 219, 0.418);
+
+}
+
+.logo{
+    
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    top: 10.5rem;
+    
+    width: 150px;
+    background-color: rgb(38, 30, 156);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgb(126, 157, 214) ;
+
+
+}
+
+.estilo-titulo{
+background-color: rgb(8, 196, 243);
+text-align: center;
+padding: .4rem .4rem .4rem .4rem;
+width: 100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding:11px 20px 15px 20px; 
+    font-size: 23px;
+    background-color: royalblue;
+    width: 170px;
+    min-width: 163px;
+    padding-left: 20px;
+    min-height: 500px;
+ 
+}
+.subcuerpo{
+    display: flex; justify-content: left;
+ 
+}
+
+
+nav a{ text-decoration: none;
+
+}
+
+
+nav a:hover{
+    background-color: rgb(70, 182, 219);
+   border-radius: 10px;
+   
+   
+}
+
+nav a[href="#"]{
+    background-color: rgb(154, 221, 243);
+    border-radius: 10px;
+}
+
+.cuerpo{
+    background-color: rgb(154, 221, 243);
+    min-height: 500px;
+      }
+
+
+
+
+
+.piedepagina{
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(8, 196, 243);
+    display: flex; justify-content: center;
+    align-items:baseline;
+    font-size: 15px;color: darkslategray;
+}
+
+.parrafo{
+    width: 350px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  
+}
+
+.imagencuerpo1{ background-image:url("../images/cuadrado.png");
+ min-width:200px;} 
+.imagencuerpo2{ background-image:url("../images/cuadrado.png");
+ min-width:200px;} 
+.imagencuerpo3{ background-image:url("../images/cuadrado.png");
+ min-width:200px;} 
+
+h2{padding-top: 1rem;}
+h3{padding-top: 1rem;}
+.texto{padding-bottom: 1rem;}

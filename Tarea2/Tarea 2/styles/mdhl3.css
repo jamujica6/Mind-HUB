@@ -1,0 +1,135 @@
+
+*{margin: 0px;}
+
+.cabeza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../images/design1_image2.jpg);
+    background-position: 20% 10%;
+    height: 17rem;
+    
+}
+
+.nombre-pagina{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+    padding:.5rem .5rem .5rem 1.5rem;
+    background-color: rgba(46, 219, 219, 0.418);
+  
+   
+}
+
+.logo{
+    
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    top: 4em;
+    
+    width: 150px;
+    background-color: rgb(33, 30, 202);
+   
+    border-radius: 10px;
+   
+
+}
+
+.estilo-titulo{
+background-color: rgb(8, 196, 243);
+text-align: center;
+width: 100%;
+padding: 10px 20px 10px 20px;
+}
+
+nav{
+    display: flex;
+    padding:11px 20px 15px 20px; 
+    justify-content:center;
+    font-size: 23px;
+    background-color: royalblue;
+    
+ 
+}
+.subcuerpo{
+    display: flex; 
+    flex-direction: column;
+   
+    
+ 
+}
+
+
+nav a{ text-decoration: none;
+margin-top: 1rem;
+border:solid rgb(236, 236, 236);
+margin:5px;
+padding: 5px;
+border-radius: 10px;
+background-color: rgb(187, 96, 96);
+}
+
+
+nav a:hover{
+    background-color: rgba(140, 216, 212, 0.699);
+    border-radius: 10px;
+}
+
+nav a[href="#"]{
+    background-color: rgb(154, 221, 243);
+    border-radius: 10px;
+    padding: 5px;
+}
+.cuerpo{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    background-color: rgb(154, 221, 243);
+   
+      }
+
+
+.imagencuerpo1{ background-image:url("../images/hockey1.jpg");
+    height: 700px; 
+background-position: 20% 50%; 
+padding:20px;
+margin:40px;
+border-radius: 10px; } 
+
+.imagencuerpo2{ background-image:url("../images/hockey2.jpg");
+    height: 700px; 
+background-position: 60% 10%; 
+padding:20px;
+margin:40px;
+border-radius: 10px; } 
+
+.imagencuerpo3{ background-image:url("../images/hockey3.jpg");
+    height: 700px; 
+background-position: 20% 40%; 
+padding:20px;
+margin:40px;
+border-radius: 10px; } 
+
+
+.piedepagina{
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(8, 196, 243);
+    display: flex; justify-content: center;
+    align-items:baseline;
+    font-size: 15px;color: darkslategray;
+}
+
+.parrafo{
+    width: 450px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    align-self: center;
+    
+    
+  
+}
+h2{padding-top: 1rem;}
+h3{padding-top: 1rem;}
+.texto{padding-bottom: 1rem;}

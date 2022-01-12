@@ -1,0 +1,39 @@
+
+*{margin: 0px;}
+.cabeza{
+    display: flex; justify-content: space-evenly;
+    background-color: khaki;
+}
+
+nav{
+    display: flex; 
+    justify-content: center;
+    font-size: 23px;
+    border: 0.1rem solid rgba(27, 146, 140, 0.699);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+nav a{ text-decoration: none;}
+
+nav a:hover{
+    background-color: rgba(27, 146, 140, 0.699);
+   
+}
+
+.cuerpo{
+    background-color: rgb(154, 221, 243);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.imagencuerpo{width: 500px;border-radius: 15px;}
+
+.piedepagina{
+    background-color: khaki;
+    
+    display: flex; justify-content: end;font-size: 13px;color: darkslategray;"
+}

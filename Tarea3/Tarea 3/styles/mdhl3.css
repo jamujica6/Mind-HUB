@@ -1,0 +1,230 @@
+
+*{margin:0px;}
+
+.cabeza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../images/banner.png);
+    background-position: 50% 30%;
+    height: 17rem;
+    
+}
+
+.nombre-pagina{
+    display:flex;
+    justify-content: left;
+    font-size: 40px;
+    padding:.5rem .5rem .5rem 1.5rem;
+    background-color: rgba(34, 150, 150, 0.616);
+  
+   
+}
+
+.logo{
+    
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    top: 4em;
+    
+    width: 150px;
+    background-color: rgb(23, 169, 206);
+   
+    border-radius: 10px;
+   
+
+}
+
+.estilo-titulo{
+background-color: rgb(8, 196, 243);
+text-align: center;
+width: 100%;
+padding: 20px 0 20px 0;
+}
+
+nav{
+    display: flex;
+    padding:11px 20px 15px 20px; 
+    justify-content:center;
+    font-size: 23px;
+    background-color: royalblue;
+    min-width: 810px;
+    
+ 
+}
+
+nav a{ text-decoration: none;
+margin-top: 1rem;
+border:solid rgb(236, 236, 236);
+margin:5px;
+padding: 5px;
+border-radius: 10px;
+background-color: rgb(187, 96, 96);
+}
+
+
+nav a:hover{
+    background-color: rgba(140, 216, 212, 0.699);
+    border-radius: 10px;
+}
+
+nav a[href="#"]{
+    background-color: rgb(154, 221, 243);
+    border-radius: 10px;
+    padding: 5px;
+}
+.cuerpo{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: rgb(154, 221, 243);
+         }  
+      
+.rules{background-color: navajowhite;
+    background-image:url(../images/pizarra.png);
+border: olive;
+margin:  20px 40px 20px 40px;
+padding: 30px 90px 30px 90px;
+border-radius: 16px;
+color: oldlace;
+width: 60rem;
+height: 59rem;
+align-self: center;}
+
+.rules p{max-width: 50rem;}
+
+.rules h1{text-align: center;}
+
+.rules h2{text-align: center;
+margin-bottom: 6rem;}
+
+.rules h3{text-align:left;}
+
+.rules ul li{width: 810px;}
+
+.rules ol li p{width: 790px;}
+
+.rules ol li ol li{width: 780px;}
+
+
+.negrita{font-weight: bolder; }
+
+.game_info{
+    background-image: url(../images/cancha.png);
+/* background-color: navajowhite; */
+border: olive;
+margin:  20px 40px 20px 40px;
+padding: 30px 90px 30px 90px;
+border-radius: 16px;
+
+ /* display:flex; 
+flex-direction: column;
+align-items:center;  */
+
+}
+.game_info h1{text-align: center;
+}
+.game_info h3{
+    font-style: italic;
+text-decoration:underline;}
+
+.game_info p{margin-bottom: 1rem; margin-top: 2rem;}
+
+.game_info h3{margin-bottom: 1rem;
+}
+
+.tabla_juegos{
+
+align-self:center;
+padding:2px;
+border:2px;
+/* border:2px solid rgb(138, 129, 2);} */
+}
+tr, th, td
+{padding: 6px;
+   
+    text-align: center;
+
+/* border:2px solid rgb(138, 129, 2); */
+
+}
+.elm{text-decoration: none;}
+
+.pie{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+/* _____________IMAGENES___________ */
+
+ .imagencuerpo1{ 
+ /*   background-image:url("../images/hockey1.jpg"); */
+    /* height: 700px;  */
+/* background-position: 20% 50%;  */
+padding:20px;
+margin:40px;
+width: 400px;
+border-radius: 10px; } 
+
+.imagencuerpo2{ background-image:url("../images/hockey2.jpg");
+    height: 700px; 
+background-position: 60% 10%; 
+padding:20px;
+margin:40px;
+border-radius: 10px; } 
+
+.imagencuerpo3{ background-image:url("../images/hockey3.jpg");
+    height: 700px; 
+background-position: 20% 40%; 
+padding:20px;
+margin:40px;
+border-radius: 10px; } 
+
+.imagencuerpo4
+{ 
+background-color: rgb(154, 221, 243);
+display: flex;
+justify-content: center;
+padding: 30px;
+margin: 30px;
+
+} 
+
+.imagencuerpo4 img{width:auto;
+    height: auto;
+    border-radius: 20px;
+     
+}
+
+.imagencuerpo5{ background-image:url("../images/hockey5.jpg");
+padding: 30px;
+margin: 30px;
+height: 1000px;
+
+
+border-radius: 10px; } 
+
+.piedepagina{
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(8, 196, 243);
+    display: flex; justify-content: center;
+    align-items:baseline;
+    font-size: 15px;color: darkslategray;
+}
+
+.parrafo{
+    width: 550px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    text-align:justify;
+    align-self: center;
+    
+    
+  
+}
+h2{padding-top: 1rem;}
+h3{padding-top: 1rem;}
+.texto{padding-bottom: 1rem;}
