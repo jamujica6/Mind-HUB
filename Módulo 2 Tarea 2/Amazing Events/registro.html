@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="./img/logo.png" alt="">
+            
+        </div>
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./proximosEventos.html">Próximos Eventos</a>
+            <a href="./eventosPasados.html">Eventos Pasados</a>
+        </nav>
+    </header>
+    <main>
+        <form class="formulario" action="./data/show_data.html">
+
+            <div class="fila">
+                    <div class="nombre">
+                        <label class="nom" for="nom">Nombre Completo</label>
+                        <input type="text" id="nom" name="Nombre_Completo"/>
+                    </div>
+                    <div class="email">
+                        <label class="em" for="em">Email</label>
+                        <input type="text" id="em" name="E-mail"/>
+                    </div>
+            </div>
+            <div class="fila">
+                    <div class="contraseña">
+                        <label class="pass" for="conf">Contraseña               </label>
+                        <input type="text" id="conf" name="Pass"/>
+                     </div>
+                    <div class="contraseña">
+                        <label class="pass" for="conf">Contraseña (confirmación)</label>
+                        <input type="text" id="conff" name="Pass_Conf"/>
+                     </div>
+            </div>
+            <div class="filaUltima">
+                    <div class="usr">
+                        <label class="user" for="user">Tipo de Usuario</label>
+                        <select name="Tipo_Usuario" id="user">
+                            <option id="opt" value="Estudiante">Estudiante</option>
+                            <option id="opt2" value="Docente">Docente      </option>
+                            <option id="opt3" value="Otro">Otro            </option>
+                        </select>
+                    </div>
+                    
+            </div>    
+            <div class="filaf">
+                    <div class="check">
+                        <input type="checkbox" id="tc" name="termYcond" value="checked"/>
+                        <label class="tc" for="tc">Acepto los términos y condiciones</label>
+                        
+                    </div>      
+                 
+                </div>
+                <input class="bot" type="submit" value="Continuar"/>
+        </form>
+    </main>
+    <footer class="pie">Todos los derechos reservados: Javier Mujica &copy; 2022</footer>
+    <script src="./js/registro.js"></script>
+</body>
+</html>

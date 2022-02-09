@@ -107,6 +107,9 @@ margin-bottom: 6rem;}
 
 .rules ol li ol li{width: 780px;}
 
+.lista{
+    list-style-type: lower-latin;
+}
 
 .negrita{font-weight: bolder; }
 
@@ -228,3 +231,5 @@ border-radius: 10px; }
 h2{padding-top: 1rem;}
 h3{padding-top: 1rem;}
 .texto{padding-bottom: 1rem;}
+
+

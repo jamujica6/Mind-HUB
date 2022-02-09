@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registro tomado</title>
+<link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+
+<header>
+
+  <div>
+    <img class="logo" src="../img/logo.png" alt="">
+    
+</div>
+<nav>
+    <a href="./index.html">Inicio</a>
+    <a href="./proximosEventos.html">Próximos Eventos</a>
+    <a href="./eventosPasados.html">Eventos Pasados</a>
+    
+</nav>
+</header>
+<main>
+<nav>
+  <a href="../registro.html">Volver</a>       
+</nav>
+
+<h1>The following information has been sent as your
+  feedback:</h1>
+
+<table class="resultados" >
+  <tr>
+    <th class="tituloRes">Form Field</th>
+    <th class="tituloRes" >Field Value</th>
+  </tr>
+
+<script>
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr><td align="center">' + field + '</td>');
+    document.writeln('<td align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+
+<noscript>
+<tr><td>
+<p>You need to turn on Javascript in your browser.</p>
+
+<p>In Microsoft Internet Explorer 4 or greater:</p>
+<ul>
+<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+<li>Click on the "Security" tab.</li>
+<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+and then click on "Settings...".)</li>
+<li>Under "Active scripting" make sure "Enable" is selected.</li>
+</ul>
+
+<p>In Netscape version 4 or greater:</p>
+<ul>
+<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+<li>Click the <b>OK</b> button.</li>
+</ul>
+
+</td></tr>
+</noscript>
+
+</table>
+</main>
+<footer class="pie">
+  &copy; By Javier Mujica, all rights reserved.
+</footer>
+</body>
+</html>
+
